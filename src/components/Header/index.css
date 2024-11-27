@@ -1,0 +1,30 @@
+.mainHeader{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(231, 228, 228, 0.644);
+}
+.mainHeader img{
+    width: 60px;
+}
+.mainHeader input {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #bbb8b8;
+    padding: 2px 5px;
+    outline: none;
+}
+.mainHeader button{
+    margin-top: 5px;
+    border: none;
+    font-size: 22px;
+    color: #525151;
+    cursor: pointer;    
+}
+.mainHeader button:hover{
+    transform: scale(1.05);
+}
